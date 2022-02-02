@@ -1,0 +1,50 @@
+@import "vars.scss";
+
+html {
+  box-sizing: border-box;
+}
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+menu,
+body,
+button{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+body{
+  font-size: 16px;
+  line-height:1;
+  font-family: "TT Lakes", sans-serif;
+  background-color: $bodycolor;
+
+}
+

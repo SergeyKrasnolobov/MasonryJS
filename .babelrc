@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+        {
+            "modules": false,
+            "loose": true,
+            "useBuiltIns": "usage"
+        }
+    ]
+    ],
+    "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties"
+        ]
+    ]
+  }

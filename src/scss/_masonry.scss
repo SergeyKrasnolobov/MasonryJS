@@ -1,0 +1,17 @@
+.masonry {
+    position: relative;
+}
+
+    .masonry_item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        opacity: 0;
+        will-change: transform;
+        transition: box-shadow 0.1s, opacity 0.1s, transform 0.1s;
+    }
+
+    .masonry--active .masonry_item {
+        opacity: 1;
+    }
