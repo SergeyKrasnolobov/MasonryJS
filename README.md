@@ -1,11 +1,10 @@
 
 # Masonry
 
-Cascading grid layout library
+A lightweight library for creating cascadind grid layot
 
 ## Initialize
-
-With vanilla JavaScript
+In js file
 
 ``` js
 
@@ -32,7 +31,7 @@ new Masonry(document.getElementById("masonry"), options);
 
 ```
 
-With HTML
+In HTML
 
 Add a div element with class `masonry`. 
 
@@ -40,7 +39,9 @@ Add a div element with class `masonry`.
 
 
 <div class="masonry" id="masonry">
-    <!-- Your cards here... -->
+     <div class="masonry_item card">
+       <!-- Add your card code here... -->
+     </div> 
 </div>
 ```
 
