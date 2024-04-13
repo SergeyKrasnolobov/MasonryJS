@@ -1,7 +1,7 @@
 
 # Masonry
 
-A lightweight library for creating cascadind grid layot
+A lightweight library for creating cascadind grid layout
 
 ## Initialize
 In js file
